@@ -21,14 +21,6 @@
    <children>
       <Pane prefHeight="263.0" prefWidth="314.0" style="-fx-background-color: #FFFEFD;">
          <children>
-            <ImageView fitHeight="164.0" fitWidth="201.0" focusTraversable="true" layoutX="57.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../../../../Pictures/DonLee.jpg" />
-               </image>
-               <cursor>
-                  <Cursor fx:constant="HAND" />
-               </cursor>
-            </ImageView>
             <Button fx:id="ordenar" alignment="TOP_LEFT" layoutX="106.0" layoutY="149.0" mnemonicParsing="false" onAction="#ordenar" prefHeight="35.0" prefWidth="104.0" style="-fx-background-color: F7B572;" text="ORDENAR" textAlignment="CENTER" textOverrun="CLIP">
                <cursor>
                   <Cursor fx:constant="HAND" />
@@ -51,6 +43,11 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
+            <ImageView fitHeight="128.0" fitWidth="200.0" layoutX="58.0" layoutY="14.0" pickOnBounds="true">
+               <image>
+                  <Image url="@DonLee.jpg" />
+               </image>
+            </ImageView>
          </children>
       </Pane>
    </children>
